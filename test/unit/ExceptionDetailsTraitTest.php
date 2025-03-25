@@ -13,7 +13,7 @@ use Qameta\Allure\PHPUnit\AllureAdapterInterface;
 use Throwable;
 
 #[CoversClass(ExceptionDetailsTrait::class)]
-class ExceptionDetailsTraitTest extends TestCase
+final class ExceptionDetailsTraitTest extends TestCase
 {
     public function testOnNotSuccessfulTest_GivenException_ThrowsSameException(): void
     {
